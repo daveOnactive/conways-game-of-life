@@ -6,10 +6,12 @@
 body {
     text-align: center;
     font-family: sans-serif;
+    background: #353e4a;
 }
 
 h1 {
     margin: .5rem 0 1em;
+    color: #fff;
 }
 
 #grid {
@@ -26,10 +28,10 @@ h1 {
             width: 20px;
             height: 20px;
             border: 0;
-            // background: yellow;
+            background: #f8f8ef;
             &:checked{
-                background: #000;
-                box-shadow: 0 0 0 99px black inset;
+                background: #04d0d9;
+                // box-shadow: 0 0 0 99px black inset;
             }
         }
     }
@@ -37,6 +39,14 @@ h1 {
 
 button {
     margin: 0.5rem;
+    background: #9acb34;
+    padding: 0.3rem 0.7rem;
+    border: none;
+    color: #fff;
+}
+
+label {
+    color: #fff;
 }
 
 
